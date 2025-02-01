@@ -7,6 +7,14 @@ body {
   margin: 0 auto;
 }
 
+header {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), 
+  url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/156/262/original/hobbiton-photo.jpg?1738371208");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+}
+
 header h1 {
   font-weight: 700;
   font-size: 96px;    
@@ -15,6 +23,7 @@ header h1 {
 header h3 {
   letter-spacing: 4px;
   font-size: 25px;
+  color: #f8f9fa;
 }
 
 header a {
