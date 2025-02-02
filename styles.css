@@ -46,3 +46,45 @@ header a {
   padding: 16px 32px;
   text-decoration: none;
 }
+
+main {
+  background-color: rgb(216, 237, 240, 0.9);
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #272044;
+  margin: 0;
+  text-transform: uppercase;
+  font-family: "Montserrat", serif;
+}
+
+main p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #272044;
+}
+
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 100px;    
+}
+
+.grid {
+    display: grid;
+    grid-gap: 64px;
+}
+
+.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-responsive {
+    width: 100%;
+}
