@@ -63,28 +63,69 @@ main h2 {
 }
 
 main p {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.7;
-    color: #272044;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #272044;
 }
 
 section {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 100px;    
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;    
+}
+
+section.secondary {
+  background-color: aliceblue;
 }
 
 .grid {
-    display: grid;
-    grid-gap: 64px;
+  display: grid;
+  grid-gap: 64px;
 }
 
 .grid-2-columns {
-    grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .img-responsive {
-    width: 100%;
+  width: 100%;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+}
+
+.card-header {
+  padding: 0;
+}
+
+.card-body {
+  padding: 30px;
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  padding: 16px;
+  background-color: #00827f;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #48d1cc;
 }
