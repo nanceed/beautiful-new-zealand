@@ -92,6 +92,28 @@ section.contact {
   background-color: #81cdc6;
 }
 
+.navbar {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  color: #00827f;
+}
+
+.form-control-button {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: aliceblue;
+  font-size: 16px;
+}
+
+.form-control{
+  font-family: Arial,"FontAwesome";
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
