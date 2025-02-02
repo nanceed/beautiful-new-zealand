@@ -280,6 +280,48 @@ footer a {
   color: blueviolet;
 }
 
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  header h3 {
+    font-size: 18px;
+  }
+
+  header a {
+    font-size: 12px;
+    padding: 13px 16px;
+  }
+
+  main h2 {
+    font-size: 20px;
+  }
+
+  main p {
+    font-size: 14px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  a.nav-link {
+    margin: 0;
+    text-align:center;
+    padding: 5px;  
+  }
+}
+
 
 
 
