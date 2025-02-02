@@ -84,6 +84,10 @@ section.carousel-slides {
   background-color: #f8f9fa;
 }
 
+section.photos {
+  background-color: aliceblue;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -178,7 +182,7 @@ section.carousel-slides {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: transparent;
+  background-color: transparent;
   border: 0;
 }
 
@@ -206,15 +210,19 @@ section.carousel-slides {
   border-radius: 50%;
   width: 15px;
   height: 15px;
-  background: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
   margin: 0 12px;
 }
 
 .carousel-indicator.current-slide {
-  background: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 .is-hidden { display: none; }
+
+.instagram-embeds {
+  margin: 30px 0;
+}
 
 
 
