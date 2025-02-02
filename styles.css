@@ -133,3 +133,88 @@ section.carousel-slides {
 .btn-primary:hover {
   background-color: #48d1cc;
 }
+
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 250ms ease-in-out;
+}
+
+.carousel-image:hover {
+  transform: scale(1.1);
+}
+
+.carousel-track-container {
+  height: 100%;
+  position: relative;
+  overflow: hidden;  
+}
+
+.carousel-track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%; 
+}
+
+.carousel-slide {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+}
+
+.carousel-button i {
+  width: 12px;
+  cursor: pointer;
+}
+
+.carousel-button--left {
+  left: -40px;
+}
+
+.carousel-button--right {
+  right: -40px;
+}
+
+.carousel-nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.carousel-indicator {
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.3);
+  margin: 0 12px;
+}
+
+.carousel-indicator.current-slide {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+
+
+
+
+
