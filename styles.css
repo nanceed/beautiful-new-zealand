@@ -163,7 +163,8 @@ section.carousel-slides {
   margin: 0;
   list-style: none;
   position: relative;
-  height: 100%; 
+  /*height: 100%;
+  transition: transform 250ms ease-in; */
 }
 
 .carousel-slide {
@@ -212,6 +213,8 @@ section.carousel-slides {
 .carousel-indicator.current-slide {
   background: rgba(0, 0, 0, 0.75);
 }
+
+.is-hidden { display: none; }
 
 
 
