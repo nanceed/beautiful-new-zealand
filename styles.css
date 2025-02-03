@@ -1,5 +1,16 @@
+:root {
+  --heading-font-family: "Montserrat", serif;
+  --default-font-family: "Open Sans", serif;
+  --primary-color: #f8f9fa;
+  --secondary-color: #f0f8ff;
+  --text-color: #272044;
+  --main-border: 1px solid #ccc;
+  --hover-color: #28a99e;
+
+}
+
 body {
-  font-family: "Open Sans", serif;
+  font-family: var(--default-font-family);
   background-color: #fff6f6;
 }
 
@@ -14,7 +25,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 200px;
-  color: #f8f9fa;
+  color: var(--primary-color);
   text-align: center;
 }
 
@@ -22,15 +33,15 @@ header h1 {
   font-weight: 700;
   font-size: 96px;
   line-height: 1.5;
-  font-family: "Montserrat", serif;
-  color: #f8f9fa;
+  font-family: var(--heading-font-family);
+  color: var(--primary-color);
   text-shadow: 2px 2px 4px #000000;    
 }
 
 header h3 {
   letter-spacing: 4px;
   font-size: 25px;
-  color: #f8f9fa;
+  color: var(--primary-color);
 }
 
 header a {
@@ -38,7 +49,7 @@ header a {
   line-height: 1.5;
   letter-spacing: 5px;
   background-color: rgba(255, 255, 255, 0.5);
-  color: black;
+  color: var(--text-color);
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
@@ -56,10 +67,17 @@ main h2 {
   font-size: 20px;
   line-height: 1.5;
   letter-spacing: 5px;
-  color: #272044;
+  color: var(--text-color);
   margin: 0;
   text-transform: uppercase;
-  font-family: "Montserrat", serif;
+  font-family: var(--heading-font-family);
+}
+
+main h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1;
+  color:var(--text-color);
 }
 
 main p {
@@ -67,7 +85,7 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: #272044;
+  color: var(--text-color);
 }
 
 section {
@@ -77,15 +95,15 @@ section {
 }
 
 section.secondary {
-  background-color: aliceblue;
+  background-color: var(--secondary-color);
 }
 
 section.carousel-slides {
-  background-color: #f8f9fa;
+  background-color: var(--primary-color);
 }
 
 section.photos {
-  background-color: aliceblue;
+  background-color: var(--secondary-color);
 }
 
 section.contact {
@@ -98,19 +116,19 @@ section.contact {
 }
 
 .navbar a:hover {
-  color: #00827f;
+  color: var(--hover-color);
 }
 
 .form-control-button {
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: aliceblue;
+  background-color: var(--secondary-color);
   font-size: 16px;
 }
 
 .form-control{
   font-family: Arial,"FontAwesome";
-  border: 1px solid #ccc;
+  border: var(--main-border);
   border-radius: 4px;
 }
 
@@ -132,7 +150,6 @@ section.contact {
 }
 
 .card {
-  background-color: white;
   margin: 30px 0;
 }
 
@@ -142,7 +159,7 @@ section.contact {
 
 .card-body {
   padding: 30px;
-  background-color: #f8f9fa;
+  background-color: var(--primary-color);
 }
 
 .btn-primary {
@@ -161,7 +178,7 @@ section.contact {
 }
 
 .btn-primary:hover {
-  background-color: #48d1cc;
+  background-color: var(--hover-color);
 }
 
 .carousel {
@@ -194,7 +211,7 @@ section.contact {
   list-style: none;
   position: relative;
   height: 100%;
-  transition: transform 250ms ease-in; 
+  transition: 250ms ease-in; 
 }
 
 .carousel-slide {
@@ -256,7 +273,7 @@ section.contact {
   padding: 16px;
   margin-top: 8px;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: var(--main-border);
   font-family: Arial, "FontAwesome";
 }
 
@@ -271,7 +288,7 @@ section.contact {
 }
 
 .social-icons-contact i:hover {
-  background-color: #28a99e;
+  background-color: var(--hover-color);
 }
 
 footer a {
