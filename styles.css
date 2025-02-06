@@ -316,7 +316,11 @@ footer a {
   }
 
   main h2 {
-    font-size: 20px;
+    font-size: 18px;
+  }
+
+  main h3 {
+    font-size: 22px;
   }
 
   main p {
@@ -336,6 +340,10 @@ footer a {
     margin: 0;
     text-align:center;
     padding: 5px;  
+  }
+
+  .contact-map {
+    overflow: hidden;
   }
 }
 
